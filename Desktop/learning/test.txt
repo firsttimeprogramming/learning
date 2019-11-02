@@ -1,0 +1,7 @@
+#pip
+the pip after upgrade will have the problem of:
+"Traceback (most recent call last):
+  File "/usr/bin/pip", line 9, in <module>
+    from pip import main"
+how to solve:
+hash -d pip
