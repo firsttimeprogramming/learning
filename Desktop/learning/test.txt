@@ -5,3 +5,6 @@ the pip after upgrade will have the problem of:
     from pip import main"
 how to solve:
 hash -d pip
+
+git pull --rebase
+take a commit on top of another commit.
